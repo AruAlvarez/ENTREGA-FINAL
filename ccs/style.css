@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main h1 {
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #052bd3;
+}
+
+.banner img {
+    width: 100%;
+    align-content: center;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.div-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+
+}
+
+.destino-card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(35, 44, 107, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    padding: 10px 0px 15px 0px;
+
+}
+
+
+.aereo-card {
+    font-size: medium;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 80px;
+}
+
+.aereo-card input {
+    margin: 10px;
+}
+
+
+.div-container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+
+}
+
+.extra-card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(35, 44, 107, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    padding: 10px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+
+}
+
+.extra-card input {
+    width: 50px !important;
+    margin: 0px 0px 10px 0px;
+}
+
+.div-tabla {
+    display: table-caption;
+
+}
+
+#container4 {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+#tabla {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#tabla th,
+#tabla td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#tabla th {
+    background-color: #f4f4f4;/
+}
+
+#reservar,
+#limpiar {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3d9749;
+    color: white;
+}
+
+button {
+    border-bottom: #3d9749;
+}
+
+
+#limpiar {
+    background-color: #ffffff;
+}
+
+#limpiar:hover {
+    background-color: #ff0000;
+}
+
+.eliminar:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+.quieroIr:hover {
+    background-color: #052bd3;
+    color: white;
+}
+
+.btn-outline-success {
+    --bs-btn-color: #052bd3;
+    --bs-btn-border-color: #052bd3;
+    --bs-btn-hover-border-color: #052bd3;
+    --bs-btn-active-bg: #1d41e1;
+    --bs-btn-hover-bg:#052bd3;
+    
+}
+
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
+    border: 0;
+    border-radius: .25em;
+    background: initial;
+    background-color: #3d9749;
+    color: #fff;
+    font-size: 1em;
+}

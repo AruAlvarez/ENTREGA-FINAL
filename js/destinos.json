@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "destino": "Cordoba",
+        "precio": 30000,
+        "fecha1": "01/12/24",
+        "fecha2": "02/12/24"
+    },
+    {
+        "id": 2,
+        "destino": "Mendoza",
+        "precio": 50000,
+        "fecha1": "03/12/24",
+        "fecha2": "04/12/24"
+    },
+    {
+        "id": 3,
+        "destino": "Salta",
+        "precio": 70000,
+        "fecha1": "05/12/24",
+        "fecha2": "06/12/24"
+    },
+    {
+        "id": 4,
+        "destino": "Bariloche",
+        "precio": 90000,
+        "fecha1": "07/12/24",
+        "fecha2": "08/12/24"
+    }
+]
+

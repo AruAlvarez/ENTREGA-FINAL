@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "extra": "Equipaje de mano",
+        "precioExtra": 500
+    },
+    {
+        "id": 2,
+        "extra": "Equipaje de bodega",
+        "precioExtra": 2500
+    },
+    {
+        "id": 3,
+        "extra": "Equipaje deportivo",
+        "precioExtra": 6000
+    },
+    {
+        "id": 4,
+        "extra": "Asistencia al viajero",
+        "precioExtra": 58000
+    }
+]
